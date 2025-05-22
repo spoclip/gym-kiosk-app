@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"name": "gym-kiosk-app",
+		"path": "."
+	},
+	{
+		"name": "assets",
+		"path": "../spoclip_frontend/apps/gym-kiosk-app-shell/assets"
+	},
+	{
+		"name": "src",
+		"path": "../spoclip_frontend/apps/gym-kiosk-app-shell/src"
+	}
+],
+  "settings": {}
+}

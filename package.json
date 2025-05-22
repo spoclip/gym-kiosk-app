@@ -16,7 +16,7 @@
     "build": "eas build --platform android",
     "build:preview": "eas build --profile preview --platform android",
     "====================etc====================": "",
-    "update-env": "node ../../scripts/set-dev-env.js"
+    "update-env": "node ./scripts/set-dev-env.js"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [

@@ -1,12 +1,9 @@
-import React from "react";
-import KioskAppWebView from "./components/web-view";
-import { StatusBar } from "expo-status-bar";
+import { View, Text } from "react-native";
 
 export default function App() {
   return (
-    <>
-      <StatusBar hidden />
-      <KioskAppWebView />
-    </>
+    <View>
+      <Text>Hello World</Text>
+    </View>
   );
 }

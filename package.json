@@ -1,6 +1,6 @@
 {
   "name": "gym-kiosk-app-shell",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.ts",
   "scripts": {
     "dev": "npm run update-env && APP_ENV=development npx expo start -c",

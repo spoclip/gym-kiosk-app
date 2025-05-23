@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "main": "index.ts",
   "scripts": {
-    "dev": "pnpm update-env && APP_ENV=development npx expo start -c",
+    "dev": "npm run update-env && APP_ENV=development npx expo start -c",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",

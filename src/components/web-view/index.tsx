@@ -19,7 +19,6 @@ function KioskAppWebView() {
       source={{ uri: process.env.EXPO_PUBLIC_WEBVIEW_URL as string }}
       style={styles.container}
       injectedJavaScript={injectedJavaScript}
-      webviewDebuggingEnabled
       originWhitelist={["*"]}
     />
   );

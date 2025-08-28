@@ -1,5 +1,7 @@
 const getPackageName = () => {
   switch (process.env.APP_ENV) {
+    case "development-local":
+      return "com.spoclipai.gymkioskapp.dev-local";
     case "development":
       return "com.spoclipai.gymkioskapp.dev";
     case "preview":
@@ -12,6 +14,8 @@ const getPackageName = () => {
 
 const getAppName = () => {
   switch (process.env.APP_ENV) {
+    case "development-local":
+      return "스포클립 체육관용(dev-local)";
     case "development":
       return "스포클립 체육관용(dev)";
     case "preview":

@@ -13,6 +13,7 @@ function KioskAppWebView() {
     window.DEVICE_ID = "${deviceId}";
     true;
   `;
+  alert(deviceId);
 
   return (
     <WebView

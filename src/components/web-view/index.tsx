@@ -20,6 +20,7 @@ function KioskAppWebView() {
       style={styles.container}
       injectedJavaScript={injectedJavaScript}
       originWhitelist={["*"]}
+      webviewDebuggingEnabled
     />
   );
 }

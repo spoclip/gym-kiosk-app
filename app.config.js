@@ -30,7 +30,7 @@ module.exports = ({ config }) => ({
   ...config,
   name: getAppName(),
   slug: "gym-kiosk-app",
-  version: "1.0.2",
+  version: "1.0.3",
   orientation: "landscape",
   icon: "./assets/icon.png",
   userInterfaceStyle: "light",
